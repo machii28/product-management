@@ -1,5 +1,6 @@
 import {ChangeEvent, FormEvent, JSX, useState} from "react";
 
+// @ts-ignore
 const AddProduct  = ({fetchProducts}) => {
   const [formData, setFormData] = useState({
     images: [],
