@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import AddProduct from "@/component/AddProduct";
 
 const Products = () => {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<any[]>([]);
 
   useEffect(() => {
     fetchProducts();
